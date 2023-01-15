@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "vanillacompanion",
+  "version": "${version}",
+  "name": "Vanilla Companion",
+  "description": "",
+  "authors": [
+    "LoukHin"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/vanillacompanion/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.loukhin.vanillacompanion.VanillaCompanion"
+    ]
+  },
+  "mixins": [
+    "vanillacompanion.mixins.json"
+  ],
+  "accessWidener": "vanillacompanion.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
