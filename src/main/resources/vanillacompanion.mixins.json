@@ -7,6 +7,7 @@
   ],
   "client": [
     "ArmorFeatureRendererMixin",
+    "HeadFeatureRendererMixin",
     "InventoryScreenMixin"
   ],
   "injectors": {
