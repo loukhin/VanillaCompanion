@@ -57,6 +57,16 @@ public class ArmorHideWidget extends DrawableHelper implements Drawable, Element
     }
 
     @Override
+    public void setFocused(boolean focused) {
+
+    }
+
+    @Override
+    public boolean isFocused() {
+        return false;
+    }
+
+    @Override
     public SelectionType getType() {
         return SelectionType.NONE;
     }
